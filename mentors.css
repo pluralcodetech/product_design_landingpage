@@ -9,17 +9,17 @@
   }
 html,
 body{
-    background-image: url(./images/Rectangle\ 10.png);
-    background-color:#0A0F23;
-    color: #ffffff;
-    width: 100%;
+  background-color:#0A0F23;
+  color: #ffffff;
+  width: 100%;
 
 }
 
 .container-expand {
-    margin-left: 20px;
-    margin-right: 20px;
-  }
+  background-color: #0A0F23;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
   
   @media screen and (max-width: 1200px) {
     .container-expand {
@@ -60,34 +60,130 @@ body{
     color: #bb1313;
   }
   .box {
-    background-color: #0A0F23;
+    background-image: url(./images/hero2.png);
     background-size:cover;
     width: 100%;
-    height: 20vh;
+    height: 140vh;
     box-sizing: border-box;
-    padding-top: 46px;
-    margin-left: 20px;
-    margin-right: 50px;
+    
+   
+  }
+  @media screen and (max-width: 600px) {
+    h1 {
+      font-size: 25px;
+    }
+    p{
+      font-size: 10px;
+    }
+    .box-content{
+      margin-top: 25px;
+      
+    }
   }
   
   .box-content {
     margin: 7% auto;
+    box-sizing: border-box;
+    word-wrap: break-word;
+    margin-top: 150px;
   }
-
-
-
-.masterClass{
-   
-    text-align: center;
-}
-.masterClass h1{
+  h1{
     font-weight: 800;
     font-style: normal;
     font-size: 74px;
     line-height: 84px;
+    letter-spacing: 0.2px;
+    margin-bottom: 27px;
+    
+  }
+  p{
+    font-style: normal;
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: 0.2px;
+    margin-bottom: 75px;
+
+  }
+  .download{
+    border: 1px solid #FFB341;
+    border-radius: 5px;
+    padding: 10px 32px;
+    background-color:#0A0F23;
+    color: #ffffff;
+    outline: none;
+  }
+  .brochureDownload{
+    border-radius: 4px;
+    padding: 22.5px 97.5px;
+    background: linear-gradient(225.55deg, #FFB341 -11.25%, #DF8806 79.43%);
+    color: #ffffff;
+    outline: none !important;
+    border: none;
+    box-shadow: none !important;
+  
+  }
+
+  .aim{
+    margin-top: 50px;
+  }
+  .aim h2{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 46px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    margin-bottom: 30px;
+    /* flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 20px 10px; */
+  }
+  .aim p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    /* or 133% */
+    letter-spacing: 0.2px;
+    color: #D6D6D6;
+    /* flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px; */
+  }
+  .aim img{
+    width: 100%;
+  }
+.masterClass{
+  margin-bottom: 200px;
 }
 
-.masterClass p{
-    font-style: normal;
+.productDesigner{
+  background-image: url(./images/spon.png);
+  background-repeat: no-repeat;
+  margin-bottom: 70px;
+}
+.productDesigner h2{
+  /* margin-top: 75px; */
+  padding-top: 75px;
+  padding-bottom: 20px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32.5546px;
+  line-height: 44px;
+  text-align: center;
+}
+.productDesigner p{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+/* or 133% */
+  text-align: center;
+  letter-spacing: 0.2px;
+  padding-bottom: 74.54px;
+}
 
+.regdownload{
+margin: 5% auto;
 }
