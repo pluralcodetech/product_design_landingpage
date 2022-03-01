@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Manrope&family=Nunito+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: unset;
+    font-family:'Nunito Sans', sans-serif;
+  }
+html,
+body{
+    background-image: url(./images/Rectangle\ 10.png);
+    background-color:#0A0F23;
+    color: #ffffff;
+    width: 100%;
+
+}
+
+.container-expand {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  @media screen and (max-width: 1200px) {
+    .container-expand {
+      margin: 0;
+    }
+  }
+  .dropdown-menu li {
+    position: relative;
+  }
+  
+  .dropdown-menu .dropdown-submenu {
+    display: none;
+    position: absolute;
+    left: 100%;
+    top: -7px;
+  }
+  
+  .dropdown-menu .dropdown-submenu-left {
+    right: 100%;
+    left: auto;
+  }
+  
+  .dropdown-item {
+    color: #ffffff;
+  }
+  
+  .dropdown-menu > li:hover > .dropdown-submenu {
+    display: block;
+  }
+  
+  .dropdown-menu {
+    background-color: #0A0F23;
+  }
+  .navbar-light .navbar-nav .nav-link{
+      color: #ffffff;
+  }
+  .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #bb1313;
+  }
+  .box {
+    background-color: #0A0F23;
+    background-size:cover;
+    width: 100%;
+    height: 20vh;
+    box-sizing: border-box;
+    padding-top: 46px;
+    margin-left: 20px;
+    margin-right: 50px;
+  }
+  
+  .box-content {
+    margin: 7% auto;
+  }
+
+
+
+.masterClass{
+   
+    text-align: center;
+}
+.masterClass h1{
+    font-weight: 800;
+    font-style: normal;
+    font-size: 74px;
+    line-height: 84px;
+}
+
+.masterClass p{
+    font-style: normal;
+
+}
