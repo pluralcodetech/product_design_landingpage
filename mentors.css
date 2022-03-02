@@ -87,7 +87,7 @@ body{
     word-wrap: break-word;
     margin-top: 150px;
   }
-  h1{
+  .box-content h1{
     font-weight: 800;
     font-style: normal;
     font-size: 74px;
@@ -96,7 +96,7 @@ body{
     margin-bottom: 27px;
     
   }
-  p{
+  .box-content p{
     font-style: normal;
     font-size: 28px;
     line-height: 40px;
@@ -160,7 +160,11 @@ body{
 
 .productDesigner{
   background-image: url(./images/spon.png);
+  /* width: 100%;
+  height: auto;
+  object-fit: cover; */
   background-repeat: no-repeat;
+  background-size: cover;
   margin-bottom: 70px;
 }
 .productDesigner h2{
@@ -184,36 +188,27 @@ body{
   padding-bottom: 74.54px;
 }
 
-
-input[type=text]{
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  resize: vertical;
-}
-
-input[type=submit] {
-  background-color: #04AA6D;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  float: right;
-}
 .wrap{
   display: flex;
   justify-content: center;
   align-items: center;
-
+}
+form{
+  width:600px;
+  padding: 20px;
 }
 .form-control{
   margin-bottom: 20px;
+  padding: 30px 20px;
+  background: none;
+  color: #fff;
 }
-input[type=submit]:hover {
-  background-color: #45a049;
+.form-control:focus, .form-control:active, .form-control:hover {
+  background: none;
+  color: #fff;
+  border-color: none;
 }
+
 .db{
   border-radius: 4px;
   padding: 25px 97.5px;
@@ -221,56 +216,56 @@ input[type=submit]:hover {
   color: #ffffff;
   outline: none;
   border: none;
-  
+  margin: 0px auto;
 }
-
+.details{
+  margin-bottom: 50px;
+}
+.become-a-designer{
+  margin-bottom: 100px;
+}
 @media screen and (max-width: 600px) {
   .col-75, input[type=submit] {
     width: 100%;
     margin-top: 0;
   }
 }
+.fa{
+  margin-right: 20px;
+}
+.fa-instagram{
+  color: #ffffff;
+  /* background: linear-gradient(90deg, #3F64F7 -18.69%, #5319B2 44.86%, #4940D6 112.15%); */
+}
 
-/* Clear floats after the columns */
+footer{
+  background-color:#090C16;
+ padding-top: 60px;
+}
+.footerWrap p{
+  /* font-style: normal;
+  font-weight: normal; */
+  font-size: 14px;
+  line-height: 24px;
+/* or 14px */
+
+}
+.footerWrap img{
+  margin-bottom: 5px;
+}
+
+.copyright{
+  background: linear-gradient(90deg, #3F64F7 -18.69%, #5319B2 44.86%, #4940D6 112.15%);
+  position: absolute;
+  width: 357px;
+  height: 56px;
+  left: 0px;
+  top: 374px;
+}
+
 .row:after {
   content: "";
   display: table;
   clear: both;
 }
 
-/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-
-/* .regdownload{
-margin: 5% auto;
-width: 100%;
-
-}
-@media screen and (max-width: 600px) {
-  .regdownload {
-    margin: 5% auto !important;
-  }
-  
-} */
-  /* width: 600px;
-  margin: 0 auto; */
-  /* border: 1px solid grey; */
-  /* margin: 20%;
-
-  border-radius: 10px;
-  padding: 20px; */
-/* } */
-
-
-/* .broch{
-  width: 200px;
-  margin: 0 auto;
-  border: 1px solid gray;
-  padding: 20px;
-  border-radius: 4px; */
-    /* padding: 22.5px 97.5px; */
-    /* background: linear-gradient(225.55deg, #FFB341 -11.25%, #DF8806 79.43%);
-    color: #ffffff;
-    outline: none !important; */
-    /* border: none;
-    box-shadow: none !important;
-} */
