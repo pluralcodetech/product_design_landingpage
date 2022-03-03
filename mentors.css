@@ -297,7 +297,7 @@ form{
 
 .footer-section {
   background-color: #090C16;
-  padding: 50px 50px 180px 50px;
+  padding: 50px 50px 150px 50px;
 }
 
 .footer-image p {
@@ -438,34 +438,18 @@ form{
   bottom: 0;
 }
 
-/* footer{
- background-color:#090C16;
- padding-top: 60px;
-} */
-/* .footerWrap p{ */
-  /* font-style: normal;
-  font-weight: normal; */
-  /* font-size: 14px;
-  line-height: 24px; */
-/* or 14px */
-
-/* } */
-/* .footerWrap img{
-  margin-bottom: 5px;
-} */
-/* 
-.copyright{
-  background: linear-gradient(90deg, #3F64F7 -18.69%, #5319B2 44.86%, #4940D6 112.15%);
-  position: absolute;
-  width: 357px;
-  height: 56px;
-  left: 0px;
-  top: 374px;
-} */
-
-/* .row:after {
-  content: "";
-  display: table;
-  clear: both;
-} */
+@media screen and (max-width:600px) {
+  .sub-footer {
+    position: relative;
+    bottom: 0;
+    width: 300px;
+    border-radius: 0px;
+    padding: 10px;
+    background-image: linear-gradient(to right, #3F64F7, #5319B2);
+  }
+  .footer-extend{
+    position: relative;
+  }
+  
+}
 
