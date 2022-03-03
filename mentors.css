@@ -165,10 +165,14 @@ body{
   }
 
   @media screen and (max-width: 600px) {
+    .aim{
+      margin-top: 15px;
+    }
     .aim h2 {
       text-align: center;
       font-size: 23px;
       margin: 0;
+      line-height: 50px;
     }
     .aim p {
       text-align: center;
@@ -185,7 +189,7 @@ body{
 
 @media screen and (max-width: 600px) {
   .masterClass{
-    margin-bottom: 100px;
+    margin-bottom: 80px;
   }
 }
 
@@ -193,12 +197,12 @@ body{
 
 .productDesigner{
   background-image: url(./images/spon.png);
-  /* width: 100%;
+  width: 100%;
   height: auto;
-  object-fit: cover; */
+  object-fit: cover;
   background-repeat: no-repeat;
   background-size: cover;
-  margin-bottom: 70px;
+  margin-bottom: 50px;
 }
 .productDesigner h2{
   /* margin-top: 75px; */
@@ -220,6 +224,25 @@ body{
   letter-spacing: 0.2px;
   padding-bottom: 74.54px;
 }
+@media screen and (max-width: 600px) {
+	.productDesigner{
+    background-image: url(./images/spon.png);
+	  width:100%;
+    height: auto;
+    border-radius: 20px;
+    margin-bottom: 40px;
+  
+	}
+  .productDesigner h2{
+    padding-top: 20px;
+  }
+  .productDesigner p{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+  }
+}
+
 
 .wrap{
   display: flex;
@@ -235,6 +258,7 @@ form{
   padding: 30px 20px;
   background: none;
   color: #fff;
+  outline: none !important;
 }
 .form-control:focus, .form-control:active, .form-control:hover {
   background: none;
