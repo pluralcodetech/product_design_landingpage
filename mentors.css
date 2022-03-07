@@ -106,7 +106,7 @@ body{
 
   .box-content {
     margin: 7% auto;
-    padding-top: 180px;
+    padding-top: 80px;
     /* padding-bottom: 200px; */
     box-sizing: border-box;
     word-wrap: break-word;
@@ -301,16 +301,16 @@ form{
   padding: 30px 20px;
   background: none;
   color: #fff;
+  box-shadow: none !important;
   outline: none !important;
+  
 }
 .form-control:focus, .form-control:active, .form-control:hover {
   background: none;
   color: #fff;
   border-color: none;
   outline: none;
-}
-.input:focus{
-  outline: none;
+  border-color: #ffffff;
 }
 
 .db{
