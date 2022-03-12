@@ -11,6 +11,43 @@
     
 </head>
 <body>
+  <!-- Modal -->
+<div class="modal fade" id="add" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-body">
+        <form class="modalForm">
+          <div class="form-group">
+            <h5 class="modal-title mb-3" id="exampleModalLabel">Download our FREE Product Design Brochure</h5>
+            <label for="exampleInputEmail1">FULL NAME:</label>
+            <input type="text" class="form-control formControl" id="" placeholder="Enter Full Name:">
+          </div>
+          
+          <div class="form-group">
+            <label for="exampleInputEmail1">EMAIL ADDRESS:</label>
+            <input type="text" class="form-control formControl" id="" placeholder="Enter email:">
+          </div>
+
+          <!-- <div class="form-group">
+            <label for="exampleInputEmail1">EMAIL ADDRESS:</label>
+            <input type="file" class="form-control formControl" id="" placeholder="Enter email:">
+          </div> -->
+          <center>
+            <button type="button" class=" SaveChange">Download Brochure</button>
+          </center>
+          
+        </form>
+      </div>
+      <!-- <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+       
+      </div> -->
+    </div>
+  </div>
+</div>
+
+
+
     <div class="box">
       <!-- <div class="container"> -->
         <div class="container-expand">
@@ -40,7 +77,7 @@
                       </a>
                       <ul class="dropdown-menu dropdown-submenu">
                           <li>
-                            <a class="dropdown-item" href="#">Product  </a>
+                            <a class="dropdown-item" href="index.html">Product  </a>
                             <!-- <ul class="dropdown-menu dropdown-submenu">
                               <li>
                                 <a class="dropdown-item" href="#">UI/UX Design</a>
@@ -52,7 +89,7 @@
                             </ul> -->
                           </li>
                           <li>
-                              <a class="dropdown-item" href="#">Software  </a>
+                              <a class="dropdown-item" href="soft.html">Software  </a>
                               <!-- <ul class="dropdown-menu dropdown-submenu">
                                 <li>
                                   <a class="dropdown-item" href="#">Front-end Dev</a>
@@ -68,7 +105,7 @@
                             </li>
                             <div class="dropdown-divider"></div>
                             <li>
-                              <a class="dropdown-item" href="#">Data  </a>
+                              <a class="dropdown-item" href="data.html">Data  </a>
                               <!-- <ul class="dropdown-menu dropdown-submenu">
                                 <li>
                                   <a class="dropdown-item" href="#">Data Analytics</a>
@@ -145,30 +182,8 @@
           <!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#staticBackdrop">
             Launch static backdrop modal
           </button> -->
-          <button type="button" class="btn brochureDownload" data-toggle="modal" data-target="#staticBackdrop">Download Brochure</button>
-      </div>
-
-
-
-
-      <div class="modal hidden">
-        <button class="close-modal">&times;</button>
-        <h2>Download our FREE Software <br>Development Brochure</h2>
-        <form>
-          <div class="form-group">
-            <label for="exampleInputEmail1">Email address</label>
-            <input type="email" class="formControl" id="exampleInputEmail1" aria-describedby="emailHelp">
-            <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
-          </div>
-          <div class="form-group">
-            <label for="exampleInputPassword1">Password</label>
-            <input type="password" class="formControl" id="exampleInputPassword1">
-          </div>
-          <button type="submit" class="btn btn-primary">Submit</button>
-        </form>
-      </div>
-      <div class="overlay hidden"></div>
-        
+          <button type="button" class="btn brochureDownload"data-toggle="modal" data-target="#add">Download Brochure</button>
+      </div> 
           
     </div>
   </div>
@@ -215,43 +230,7 @@
       </div>
     </section>  
 
-    <section>
-      <!-- Button trigger modal -->
-
-
-<!-- Modal -->
-<div class="modal fade modal-dialog modal-dialog-centered" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h2>Download our FREE Software <br>Development Brochure</h2>
-        <form>
-          <div class="form-group">
-            <label for="exampleInputEmail1">Email address</label>
-            <input type="email" class="formControl" id="exampleInputEmail1" aria-describedby="emailHelp">
-            <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
-          </div>
-          <div class="form-group">
-            <label for="exampleInputPassword1">Password</label>
-            <input type="password" class="formControl" id="exampleInputPassword1">
-          </div>
-          <button type="submit" class="btn btn-primary">Download</button>
-        </form>
-    </div>
-  </div>
-</div>
-      <!-- <div class="flex-container">
-        <button class="show-modal">show</button>
-      </div>
-      <div class="modal hidden">
-        <button class="close-modal">&times;</button>
-        <h1>My Trial</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum aspernatur qui natus unde recusandae non error quibusdam fugiat mollitia magni?</p>
-      </div>
-      <div class="overlay hidden"></div> -->
-    </section>
-
-    <div class="footer-extend" data-aos="fade-up">
+        <div class="footer-extend" data-aos="fade-up">
       <section class="section-margin">
           <footer class="footer-section">
               <div class="continer">
